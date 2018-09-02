@@ -1,0 +1,21 @@
+/**
+ * Purpose: to calculate and print a fibonacci number based on user input
+ *
+ * @author Jared Campisi
+ * @version February 27th 2018
+ */
+public class FibonacciTester
+{    
+    //main method - prints output header
+    public static void main (String [] args)
+    {
+        Fibonacci fibo = new Fibonacci();
+        
+        System.out.printf("%s %32s\n", " ", "Fibonacci Number Generator");
+        System.out.printf("%s %5s\n", " ", "======================================");
+        System.out.println("*Press Q at any time to exit");
+        System.out.println("");
+        
+        fibo.userInput();
+    }
+}
